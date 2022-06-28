@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE HUB</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+           <a href="index.html"><h1>Movie<span>hub</span></h1></a> 
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="movies.html">MOVIES</a></li>
+                <li><a href="bookings.html">BOOKINGS</a></li>
+                <li><a href="offers.html">OFFERS</a></li>
+                <li><a href="bookmarks.html">BOOKMARKS</a></li>
+            </ul>
+        </div>
+        <div class="searchbox">
+            <form>
+                <input type="search"placeholder="search">
+            </form>
+        </div>
+        <div class="searchicon">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div class="login">
+            <a href="#">Login/Signup</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="" alt=""></div>
+             <div class="swiper-slide"><img src="" alt=""></div>
+              <div class="swiper-slide"><img src="" alt=""></div>
+              <div class="swiper-slide"><img src="" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>    
+    </div>
+    <h1>upcoming movies</h1>
+    <footer>
+        <section class="footer">
+            <div class="social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+            </div>
+    
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy policy</a></li>
+            </ul>
+            <p class="copyright">© Movie HUB @ 2022</p>
+        </section>
+    </footer>
+ <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>  
+ <script>
+     const swiper = new Swiper('.swiper', {
+     autoplay:{
+         delay:3000,
+         disableOnInteraction: false,
+     },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+ </script>  
+</body>
+</html>
