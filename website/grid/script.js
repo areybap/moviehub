@@ -27,7 +27,7 @@ const API_URL =
   today2weeks +
   "&primary_release_date.lte=" +
   today +
-  "&sort_by=popularity&" +
+  "&sort_by=vote_count.desc&" +
   API_KEY;
 
 getmovies(API_URL);
