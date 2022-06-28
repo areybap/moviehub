@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>My First Web Page</h1>
+    <p>My first paragraph.</p>
+
+    <script>
+        var today = new Date();
+        var today2weeks = today;
+        var dd = today.getDate();
+
+        var mm = today.getMonth() + 1;
+        var yyyy = today.getFullYear();
+        if (dd < 10) {
+            dd = '0' + dd;
+        }
+
+        if (mm < 10) {
+            mm = '0' + mm;
+        }
+
+        today = yyyy + '-' + mm + '-' + dd;
+        today2weeks = yyyy + '-' + mm + '-' + (dd - 7);
+        console.log(today);
+        console.log(today2weeks)
+
+    </script>
+
+</body>
+
+</html>

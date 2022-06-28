@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="seat-container">
+        <div class="rem-seats" style="display: none;">
+            <span></span>
+        </div>
+        <div class="popular-seat-msg-box __non-touch" style="display: none;">
+            <span class="info-icon">
+                <svg xml:space="preserve" enable-background="new 0 0 100 100" viewBox="0 0 100 100" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" style="fill: rgba(0, 0, 0, 0.6);">
+                    <use xlink:href="/icons/movies-icons.svg#icon-info"></use>
+                </svg>
+            </span>
+            <div class="pop-tool-tip">
+                The highlighted seats denote popular seats.
+            </div>
+        </div>
+        <div class="seats" id="seatcall">
+            <div class="__block">
+                <div id="layout" style="width: 594px;">
+                    <table cellspacing="0" cellpadding="0" class="setmain">
+                        <tbody>
+                            <tr>
+                                <td class="PriceB1" colspan="2">
+                                    <div class="seatP">RECLINER-Rs. 250.00</div>
+                                    <div id="Clear_0000000002" class="canset" style="margin: 12px 12px 0 0; display: none;">
+                                        <img src="//in.bmscdn.com/bmsin/SLIMG/1_4.png?v1" style="margin-bottom: -4px;" /><a href="javascript:;" onclick="fnClearSel('0000000002');" style="text-decoration: underline;">&nbsp;Clear Selaction</a>
+                                    </div>
+                                    <div id="MultiErr_0000000002" class="canset" style="margin: 12px 12px 0 0; display: none;"><span> X </span> &nbsp; You can't select multiple sets categories</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">N</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div class="seatI">&nbsp;</div>
+                                    <div class="seatI">&nbsp;</div>
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="A_1_024" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('A_1_024')"> 1 </a></div>
+                                    <div id="A_1_025" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('A_1_025')"> 2 </a></div>
+                                    <div id="A_1_026" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('A_1_026')"> 3 </a></div>
+                                    <div id="A_1_027" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('A_1_027')"> 4 </a></div>
+                                    <div id="A_1_028" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('A_1_028')"> 5 </a></div>
+                                    <div id="A_1_029" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('A_1_029')"> 6 </a></div>
+                                    <div id="A_1_0210" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('A_1_0210')"> 7 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="PriceB1" colspan="2">
+                                    <div class="seatP">CLASSIC-Rs. 200.00</div>
+                                    <div id="Clear_0000000001" class="canset" style="margin: 12px 12px 0 0; display: none;">
+                                        <img src="//in.bmscdn.com/bmsin/SLIMG/1_4.gif?v1" style="margin-bottom: -4px;" /><a href="javascript:;" onclick="fnClearSel('0000000001');" style="text-decoration: underline;">&nbsp;Clear Selaction</a>
+                                    </div>
+                                    <div id="MultiErr_0000000001" class="canset" style="margin: 12px 12px 0 0; display: none;"><span> X </span> &nbsp; You can't select multiple sets categories</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">M</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_1_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_011')"> 1 </a></div>
+                                    <div id="B_1_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_012')"> 2 </a></div>
+                                    <div id="B_1_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_013')"> 3 </a></div>
+                                    <div id="B_1_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_014')"> 4 </a></div>
+                                    <div id="B_1_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_015')"> 5 </a></div>
+                                    <div id="B_1_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_016')"> 6 </a></div>
+                                    <div id="B_1_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_017')"> 7 </a></div>
+                                    <div id="B_1_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_018')"> 8 </a></div>
+                                    <div id="B_1_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_019')"> 9 </a></div>
+                                    <div id="B_1_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_0110')"> 10 </a></div>
+                                    <div id="B_1_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_0111')"> 11 </a></div>
+                                    <div id="B_1_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_0112')"> 12 </a></div>
+                                    <div id="B_1_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_0113')"> 13 </a></div>
+                                    <div id="B_1_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_1_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">L</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">1</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">2</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">3</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">4</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">5</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">6</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">7</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">8</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">9</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">10</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">11</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">12</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">13</a></div>
+                                    <div class="seatI"><a class="_blocked" href="javascript:;">14</a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1"></div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div class="seatI">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">K</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_4_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_011')"> 1 </a></div>
+                                    <div id="B_4_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_012')"> 2 </a></div>
+                                    <div id="B_4_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_013')"> 3 </a></div>
+                                    <div id="B_4_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_014')"> 4 </a></div>
+                                    <div id="B_4_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_015')"> 5 </a></div>
+                                    <div id="B_4_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_016')"> 6 </a></div>
+                                    <div id="B_4_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_017')"> 7 </a></div>
+                                    <div id="B_4_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_018')"> 8 </a></div>
+                                    <div id="B_4_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_019')"> 9 </a></div>
+                                    <div id="B_4_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_0110')"> 10 </a></div>
+                                    <div id="B_4_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_0111')"> 11 </a></div>
+                                    <div id="B_4_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_0112')"> 12 </a></div>
+                                    <div id="B_4_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_0113')"> 13 </a></div>
+                                    <div id="B_4_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_4_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">J</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_5_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_011')"> 1 </a></div>
+                                    <div id="B_5_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_012')"> 2 </a></div>
+                                    <div id="B_5_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_013')"> 3 </a></div>
+                                    <div id="B_5_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_014')"> 4 </a></div>
+                                    <div id="B_5_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_015')"> 5 </a></div>
+                                    <div id="B_5_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_016')"> 6 </a></div>
+                                    <div id="B_5_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_017')"> 7 </a></div>
+                                    <div id="B_5_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_018')"> 8 </a></div>
+                                    <div id="B_5_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_019')"> 9 </a></div>
+                                    <div id="B_5_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_0110')"> 10 </a></div>
+                                    <div id="B_5_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_0111')"> 11 </a></div>
+                                    <div id="B_5_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_0112')"> 12 </a></div>
+                                    <div id="B_5_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_0113')"> 13 </a></div>
+                                    <div id="B_5_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_5_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">H</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_6_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_011')"> 1 </a></div>
+                                    <div id="B_6_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_012')"> 2 </a></div>
+                                    <div id="B_6_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_013')"> 3 </a></div>
+                                    <div id="B_6_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_014')"> 4 </a></div>
+                                    <div id="B_6_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_015')"> 5 </a></div>
+                                    <div id="B_6_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_016')"> 6 </a></div>
+                                    <div id="B_6_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_017')"> 7 </a></div>
+                                    <div id="B_6_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_018')"> 8 </a></div>
+                                    <div id="B_6_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_019')"> 9 </a></div>
+                                    <div id="B_6_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_0110')"> 10 </a></div>
+                                    <div id="B_6_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_0111')"> 11 </a></div>
+                                    <div id="B_6_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_0112')"> 12 </a></div>
+                                    <div id="B_6_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_0113')"> 13 </a></div>
+                                    <div id="B_6_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_6_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">G</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_7_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_011')"> 1 </a></div>
+                                    <div id="B_7_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_012')"> 2 </a></div>
+                                    <div id="B_7_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_013')"> 3 </a></div>
+                                    <div id="B_7_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_014')"> 4 </a></div>
+                                    <div id="B_7_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_015')"> 5 </a></div>
+                                    <div id="B_7_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_016')"> 6 </a></div>
+                                    <div id="B_7_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_017')"> 7 </a></div>
+                                    <div id="B_7_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_018')"> 8 </a></div>
+                                    <div id="B_7_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_019')"> 9 </a></div>
+                                    <div id="B_7_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_0110')"> 10 </a></div>
+                                    <div id="B_7_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_0111')"> 11 </a></div>
+                                    <div id="B_7_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_0112')"> 12 </a></div>
+                                    <div id="B_7_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_0113')"> 13 </a></div>
+                                    <div id="B_7_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_7_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">F</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_8_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_011')"> 1 </a></div>
+                                    <div id="B_8_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_012')"> 2 </a></div>
+                                    <div id="B_8_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_013')"> 3 </a></div>
+                                    <div id="B_8_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_014')"> 4 </a></div>
+                                    <div id="B_8_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_015')"> 5 </a></div>
+                                    <div id="B_8_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_016')"> 6 </a></div>
+                                    <div id="B_8_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_017')"> 7 </a></div>
+                                    <div id="B_8_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_018')"> 8 </a></div>
+                                    <div id="B_8_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_019')"> 9 </a></div>
+                                    <div id="B_8_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_0110')"> 10 </a></div>
+                                    <div id="B_8_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_0111')"> 11 </a></div>
+                                    <div id="B_8_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_0112')"> 12 </a></div>
+                                    <div id="B_8_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_0113')"> 13 </a></div>
+                                    <div id="B_8_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_8_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">E</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_9_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_011')"> 1 </a></div>
+                                    <div id="B_9_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_012')"> 2 </a></div>
+                                    <div id="B_9_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_013')"> 3 </a></div>
+                                    <div id="B_9_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_014')"> 4 </a></div>
+                                    <div id="B_9_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_015')"> 5 </a></div>
+                                    <div id="B_9_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_016')"> 6 </a></div>
+                                    <div id="B_9_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_017')"> 7 </a></div>
+                                    <div id="B_9_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_018')"> 8 </a></div>
+                                    <div id="B_9_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_019')"> 9 </a></div>
+                                    <div id="B_9_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_0110')"> 10 </a></div>
+                                    <div id="B_9_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_0111')"> 11 </a></div>
+                                    <div id="B_9_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_0112')"> 12 </a></div>
+                                    <div id="B_9_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_0113')"> 13 </a></div>
+                                    <div id="B_9_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_9_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">D</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_10_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_011')"> 1 </a></div>
+                                    <div id="B_10_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_012')"> 2 </a></div>
+                                    <div id="B_10_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_013')"> 3 </a></div>
+                                    <div id="B_10_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_014')"> 4 </a></div>
+                                    <div id="B_10_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_015')"> 5 </a></div>
+                                    <div id="B_10_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_016')"> 6 </a></div>
+                                    <div id="B_10_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_017')"> 7 </a></div>
+                                    <div id="B_10_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_018')"> 8 </a></div>
+                                    <div id="B_10_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_019')"> 9 </a></div>
+                                    <div id="B_10_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_0110')"> 10 </a></div>
+                                    <div id="B_10_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_0111')"> 11 </a></div>
+                                    <div id="B_10_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_0112')"> 12 </a></div>
+                                    <div id="B_10_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_0113')"> 13 </a></div>
+                                    <div id="B_10_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_10_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">C</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_11_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_011')"> 1 </a></div>
+                                    <div id="B_11_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_012')"> 2 </a></div>
+                                    <div id="B_11_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_013')"> 3 </a></div>
+                                    <div id="B_11_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_014')"> 4 </a></div>
+                                    <div id="B_11_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_015')"> 5 </a></div>
+                                    <div id="B_11_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_016')"> 6 </a></div>
+                                    <div id="B_11_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_017')"> 7 </a></div>
+                                    <div id="B_11_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_018')"> 8 </a></div>
+                                    <div id="B_11_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_019')"> 9 </a></div>
+                                    <div id="B_11_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_0110')"> 10 </a></div>
+                                    <div id="B_11_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_0111')"> 11 </a></div>
+                                    <div id="B_11_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_0112')"> 12 </a></div>
+                                    <div id="B_11_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_0113')"> 13 </a></div>
+                                    <div id="B_11_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_11_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">B</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_12_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_011')"> 1 </a></div>
+                                    <div id="B_12_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_012')"> 2 </a></div>
+                                    <div id="B_12_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_013')"> 3 </a></div>
+                                    <div id="B_12_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_014')"> 4 </a></div>
+                                    <div id="B_12_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_015')"> 5 </a></div>
+                                    <div id="B_12_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_016')"> 6 </a></div>
+                                    <div id="B_12_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_017')"> 7 </a></div>
+                                    <div id="B_12_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_018')"> 8 </a></div>
+                                    <div id="B_12_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_019')"> 9 </a></div>
+                                    <div id="B_12_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_0110')"> 10 </a></div>
+                                    <div id="B_12_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_0111')"> 11 </a></div>
+                                    <div id="B_12_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_0112')"> 12 </a></div>
+                                    <div id="B_12_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_0113')"> 13 </a></div>
+                                    <div id="B_12_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_12_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="seatR Setrow1">A</div></td>
+                                <td class="SRow1">
+                                    <div class="seatI">&nbsp;</div>
+                                    <div id="B_13_011" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_011')"> 1 </a></div>
+                                    <div id="B_13_012" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_012')"> 2 </a></div>
+                                    <div id="B_13_013" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_013')"> 3 </a></div>
+                                    <div id="B_13_014" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_014')"> 4 </a></div>
+                                    <div id="B_13_015" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_015')"> 5 </a></div>
+                                    <div id="B_13_016" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_016')"> 6 </a></div>
+                                    <div id="B_13_017" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_017')"> 7 </a></div>
+                                    <div id="B_13_018" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_018')"> 8 </a></div>
+                                    <div id="B_13_019" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_019')"> 9 </a></div>
+                                    <div id="B_13_0110" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_0110')"> 10 </a></div>
+                                    <div id="B_13_0111" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_0111')"> 11 </a></div>
+                                    <div id="B_13_0112" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_0112')"> 12 </a></div>
+                                    <div id="B_13_0113" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_0113')"> 13 </a></div>
+                                    <div id="B_13_0114" data-seat-type="1" class="seatI"><a href="javascript:;" class="_available" onclick="fnSelectSeat('B_13_0114')"> 14 </a></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="screen-this-way">
+                    <div class="screen"></div>
+                    <span class="__text">All eyes this way please!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="seat-legends-wrapper">
+        <div class="seat-legend-container">
+            <div class="seat-legend-box status-2"></div>
+            <div class="seat-legend-text">Sold</div>
+            <div class="seat-legend-info status-2">
+                
+            </div>
+        </div>
+        <div class="seat-legend-container">
+            <div class="seat-legend-box status-1"></div>
+            <div class="seat-legend-text">Available</div>
+            <div class="seat-legend-info status-1">
+
+            </div>
+        </div>
+        <div class="seat-legend-container">
+            <div class="seat-legend-box status-88"></div>
+            <div class="seat-legend-text">Selected</div>
+            <div class="seat-legend-info status-88">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

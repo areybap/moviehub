@@ -1,0 +1,70 @@
+.seat-legends-wrapper {
+    height: 32px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 98;
+}
+.seat-legends-wrapper .seat-legend-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seat-legends-wrapper .seat-legend-container:first-child .seat-legend-box {
+    margin-left: 0;
+}
+.seat-legends-wrapper .seat-legend-container .seat-legend-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    margin-left: 32px;
+}
+.seat-legends-wrapper .seat-legend-container .seat-legend-box.status-1 {
+    background-color: #fcc32d;
+    border: 1px solid #fcc32d;
+}
+.seat-legends-wrapper .seat-legend-container .seat-legend-box.status-4 {
+    box-shadow: inset 0 0 2px 2px #fcc42d;
+    background-color: #fff;
+    border: 1px solid #fcc42d;
+}
+.seat-legends-wrapper .seat-legend-container .seat-legend-box.status-2,
+.seat-legends-wrapper .seat-legend-container .seat-legend-box.status-9 {
+    background-color: #eee;
+}
+.seat-legends-wrapper .seat-legend-container .seat-legend-box.status-88 {
+    background-color: #1ea83c;
+}
+.seat-legends-wrapper .seat-legend-container .seat-legend-box .legend-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.seat-legends-wrapper .seat-legend-container .seat-legend-box .legend-icon svg {
+    width: 14px;
+    height: 14px;
+}
+.seat-legends-wrapper .seat-legend-container .seat-legend-info {
+    display: none;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.seat-legends-wrapper .seat-legend-container .seat-legend-info.status-4 {
+    display: flex;
+}
+.seat-legends-wrapper .seat-legend-container .seat-legend-text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    margin-left: 8px;
+}
