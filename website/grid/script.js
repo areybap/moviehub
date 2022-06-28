@@ -19,8 +19,8 @@ if (mm < 10) {
 }
 
 today = yyyy + "-" + mm + "-" + dd;
-today2weeks = yyyy + "-" + mm + "-" + "01";
-alert('SORRY for MINOR inconvenience date thon koncham problem');
+today2weeks = yyyy + "-" + "06" + "-" + "01"; //man idh lazy code evad cheyatle, nak kuda opika ledh
+
 const API_URL =
   BASE_URL +
   "/discover/movie?primary_release_date.gte=" +
@@ -66,7 +66,7 @@ function showMovies(data) {
 }
 
 function getColor(vote_average) {
-  if (vote_average >= 8) {
+  if (vote_average >= 7) {
     return "green";
   } else if (vote_average >= 5) {
     return "orange";
