@@ -1,0 +1,46 @@
+    <div class="posterbtn">
+    <div class="poster">
+        <img src="${poster_path? IMG_URL + poster_path : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png"}"
+            alt="${title}">
+    </div>
+    <div class="btn">
+        <span>Book tickets</span>
+    </div>
+</div>
+<div class="info">
+    <div class="movieinfo">
+        <div class="name">
+            <p>${title}</p>
+        </div>
+        <div class="rating">
+            <p>${vote_average}</p>
+        </div>
+        <div class="lan">
+            <p>${original_language}</p>
+        </div>
+    </div>
+    <div class="o">
+        <h3>Overview</h3>
+        <p>${overview}
+        </p>
+    </div>
+    <div class="trailer">
+        <h3>Trailers</h3>
+        <div class="trailer-thumbnail">
+            <div class="s">
+                <a href="#"><img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/220px-Trollface_non-free.png"></a>
+            </div>
+            <div class="a">
+                <a href="#"><img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/220px-Trollface_non-free.png"></a>
+            </div>
+            <div class="n">
+                <a href="#"><img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/220px-Trollface_non-free.png"></a>
+            </div>
+        </div>
+    </div>
+</div> 
+    `
+    main.appendChild(movieEl);
