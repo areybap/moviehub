@@ -1,7 +1,0 @@
-rofob31539@shbiso.com
-areybap
-erripushpams123
-912086213307
-
-https://api.themoviedb.org/3/discover/movie?primary_release_date.gte=2022-06-07&primary_release_date.lte=2022-06-25&api_key=ace2601ae1c3e7f619a4bcf8de7ed57e
-https://api.themoviedb.org/3/discover/movie?primary_release_date.gte=2022-06-07&primary_release_date.lte=2022-06-25&region=IN&sort_by=popularity&api_key=ace2601ae1c3e7f619a4bcf8de7ed57e
