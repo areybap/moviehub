@@ -46,8 +46,8 @@ function getMovies(url) {
 function showMoviesInfo(data)
 {
     minfo.innerHTML='';
-    const { title, poster_path, vote_average, overview, original_language, id } = data;
-
+    const { title, poster_path, vote_average, overview, original_language, id, runtime } = data;
+    console.log(runtime);
     const movieEl = document.createElement("div");
     movieEl.classList.add("movieinfo");
     movieEl.innerHTML=`
@@ -58,7 +58,10 @@ function showMoviesInfo(data)
         <p class="${getColor(vote_average)}">${vote_average?vote_average:'NA'}</p>
         </div>
         <div class="lan">
-            <p>${original_language}</p>
+            <p>${runtime? timeConvert(runtime):original_language}</p>
+        </div>
+        <div class="lan">
+          <p>${runtime? original_language:""}</p>
         </div>
     
 
@@ -77,6 +80,16 @@ function getColor(vote_average) {
       return "red";
     }
   }
+
+function timeConvert(n) {
+  var num = n;
+  var hours = (num / 60);
+  var rhours = Math.floor(hours);
+  var minutes = (hours - rhours) * 60;
+  var rminutes = Math.round(minutes);
+  return rhours + "hr " + rminutes + "min";
+}
+
 
 function showOverviewInfo(data)
 {

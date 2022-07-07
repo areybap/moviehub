@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
+@media only screen and (max-width: 1280px) {
+  body {
+    zoom: 85%;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
