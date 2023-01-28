@@ -1,2 +1,2 @@
 # moviehub
-an incomplete theatre website?
+an theatre website
