@@ -1,2 +1,2 @@
 # moviehub
-an theatre website
+a theatre website made using js, jsp, php, sql
